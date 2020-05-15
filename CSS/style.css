@@ -35,10 +35,20 @@ nav{
 	margin:5px;
 	font-size:18;
 	padding-right:30px;
+	text-align: : center;
+}
+
+#navul li:hover{
+	transform: scale(1.2);
 }
 
 #navul li a{
 	color:white;
+	text-decoration: none; 
+}
+
+#navul li a:hover{
+	color:black;
 	text-decoration: none; 
 }
 
@@ -93,7 +103,7 @@ nav{
 	margin:10px;
 	padding:30px;
 	text-align: center;
-	width:80%;
+	width:100%;
 }
 
 #connect{
@@ -101,6 +111,11 @@ nav{
 	width:100%;
 	display:flex;
 	font-size:40px;
+	justify-content: center;
+}
+
+#connect .fab{
+	margin:10px;
 }
 
 #connect .fab:hover{
@@ -156,7 +171,7 @@ nav{
 /* Slideshow container */
 .slideshow-container {
   width: 500px;
-  height: 400px;
+  max-height: 700px;
   position: relative;
   padding-top:50px;
 }
@@ -408,6 +423,7 @@ nav{
   font-size: 100px;
   text-shadow:3px 3px #000;
   opacity:1;
+  min-height:100px 
 }
 
 .img-text{
@@ -415,7 +431,7 @@ nav{
     position: absolute;
     top: 60%;
   	left: 50%;
-  	transform: translate(-50%, -50%);
+  	transform: translate(-50%, -20%);
 	color: #f04511;
 	padding-top:300px;
 	font-family: 'Lobster', cursive;
