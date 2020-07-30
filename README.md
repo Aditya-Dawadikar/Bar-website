@@ -1,6 +1,7 @@
 # Bar-website
 
 A simple and asthetic bar website majorly designed using **parallax.js** .
+try it at https://aditya-dawadikar.github.io/Bar-website/
 * Dependencies: 
   * 1.bootstrap.css
     * https://getbootstrap.com/
